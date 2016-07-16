@@ -1,0 +1,28 @@
+{
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "description": "sports training aid",
+  "main": "app.js",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cors": "^2.7.1",
+    "express": "^4.14.0",
+    "mongo": "^0.1.0",
+    "morgan": "^1.7.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HardHatRequired/ecommerce.git"
+  },
+  "author": "Company Name",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HardHatRequired/ecommerce/issues"
+  },
+  "homepage": "https://github.com/HardHatRequired/ecommerce#readme"
+}
