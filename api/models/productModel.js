@@ -10,6 +10,8 @@ var ProductSchema = new Schema(
     // sport: {type: String, required: true},
     // desc: {type: String, required: true},
     // color: String,
+    // size: String,
+    // weight: String,
     // customizable: String,
     // thumbnail: {
     //   path: {type: String, required: true, unique: true},

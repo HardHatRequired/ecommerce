@@ -18,8 +18,6 @@ module.exports = {
     });
   },
   update: function(req, res) {
-    console.log(req.body);
-    console.log(req.params);
     Product.findByIdAndUpdate(
       req.params.id,
       req.body,

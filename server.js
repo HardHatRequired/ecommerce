@@ -21,7 +21,7 @@ app.use(express.static('./public'));
 app.use(bodyParser.json());
 app.use(cors());
 
-// api
+// product api
 app.get('/api/products', productCtrl.read);
 app.post('/api/products', productCtrl.create);
 app.put('/api/products/:id', productCtrl.update);
