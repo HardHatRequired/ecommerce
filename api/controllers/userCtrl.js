@@ -1,11 +1,11 @@
 var mongoose = require('mongoose');
 var express = require('express');
-var Product = require('../models/productModel');
+var Product = require('../models/userModel');
 
 module.exports = {
   create: function(req, res) {
-    var newProduct =  new Product(req.body);
-    newProduct.save(function(err, result) {
+    var newUser =  new User(req.body);
+    newUser.save(function(err, result) {
       if(err) return res.status(500).send(err);
       else res.send(result)
     })

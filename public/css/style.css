@@ -1,6 +1,24 @@
+.wrap {
+  margin: 0;
+  padding: 0;
+  height: 100vw;
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f4faff+0,e8f6ff+66,ceedff+100 */
+  background: #f4faff; /* Old browsers */
+  background: -moz-linear-gradient(top,  #f4faff 0%, #e8f6ff 66%, #ceedff 100%); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top,  #f4faff 0%,#e8f6ff 66%,#ceedff 100%); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom,  #f4faff 0%,#e8f6ff 66%,#ceedff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f4faff', endColorstr='#ceedff',GradientType=0 ); /* IE6-9 */
+}
+
 .nav {
   margin: 0;
-  padding: 5px;
-  background-color: yellow;
-  box-shadow: 0 10px 3px rgba(0,0,0,0.12), 0 0 2px rgba(0,0,0,0.24);
+  padding: 5px 20px 5px 20px;
+  background-color: reba (300, 300, 300, 0.12);
+  box-shadow: 1px 3px 3px #888888;
+  width: 100%;
+  position: fixed;
+}
+
+@media (max-width: 1079px) {
+
 }
