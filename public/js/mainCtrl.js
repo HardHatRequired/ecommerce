@@ -1,4 +1,4 @@
-angular.module('practice^2').controller('mainCtrl', function($scope) {
+angular.module('practice2').controller('mainCtrl', function($scope) {
 
   $scope.test = "logo"
 

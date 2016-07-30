@@ -1,0 +1,16 @@
+angular.module('practice2').config(function($stateProvider, $urlRouterProvider) {
+
+  $stateProvider
+    .state('home', {
+      url: "/",
+      templateUrl: "/views/home.html",
+      controller: 'mainCtrl'
+    })
+    .state('products', {
+      url: "/products",
+      templateUrl: "/views/products.html",
+    })
+
+    $urlRouterProvider.otherwise("/")
+
+})

@@ -1,1 +1,1 @@
-angular.module('practice^2', []);
+angular.module('practice2', ['ui.router']);

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="practice2">
+  <head>
+    <meta charset="utf-8">
+    <title>ecommerce</title>
+    <link rel="stylesheet" href="./css/normalize.css" type="text/css">
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+  </head>
+  <body ng-controller="mainCtrl">
+<!-- navigation bar -->
+    <div class="nav">
+      <div class="logo">
+      </div>
+      <div class="menu">
+        <ul class="nav-text">
+          <ol class="logo"><a ui-sref="home"><h1>{{test}}</h1></a></ol>
+          <ol><a>about</a></ol>
+          <ol><a>shooting</a></ol>
+          <ol><a>dribbling</a></ol>
+          <ol><a ui-sref="products">products</a></ol>
+          <ol><a>sign in</a></ol>
+          <ol><a>cart</a></ol>
+        </ul>
+      </div>
+    </div>
+
+<ui-view></ui-view>
+
+    <!-- <div class="page-wrap">
+      <div class="wide-box">
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna. Nunc viverra imperdiet enim. Fusce est. Vivamus a tellus. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin pharetra nonummy pede. Mauris et orci. Aenean nec lorem. In porttitor. Donec laoreet nonummy augue. Suspendisse dui purus, scelerisque at, vulputate vitae, pretium mattis, nunc. Mauris eget neque at sem venenatis eleifend. Ut nonummy.
+        </p>
+      </div>
+      <div class="card">
+
+      </div>
+
+    </div> -->
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.7/angular.js" charset="utf-8"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.3.1/angular-ui-router.js"></script>
+    <!-- <script src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js" charset="utf-8"></script> -->
+    <!-- <script src="./server.js" charset="utf-8"></script> -->
+    <script src="./js/app.js" charset="utf-8"></script>
+    <script src="./js/mainCtrl.js" charset="utf-8"></script>
+    <script src="./js/routes.js" charset="utf-8"></script>
+  </body>
+</html>

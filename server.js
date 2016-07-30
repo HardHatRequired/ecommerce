@@ -18,7 +18,7 @@ mongoose.connection.once('open', function() {
 });
 
 // middleware
-app.use(express.static('./public'));
+app.use(express.static('public'));
 app.use(bodyParser.json());
 app.use(cors());
 
