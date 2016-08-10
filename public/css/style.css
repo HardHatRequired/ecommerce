@@ -5,12 +5,26 @@
   box-shadow: 0 2px 5px rgba(0,0,0,0.26);;
   width: 100%;
   position: fixed;
+  z-index: 500;
   /*height: 7%;*/
 }
 
-h1, ol, h5, a {
-  margin: 0;
-  text-decoration: none;
+.page-wrap {
+  margin: 85.5px 5% 0 5%;
+  position: relative;
+}
+
+[ui-sref] {
+  cursor:pointer;
+}
+
+ui-view {
+  margin: 85.5px 5% 0 5%;
+  position: relative;
+}
+
+h1, li, h5, a {
+  margin: 0 10px 0 0;
   color: #474747;
 }
 
@@ -43,11 +57,6 @@ p {
   padding: 0;
 }
 
-.page-wrap {
-  padding-top: 85.5px;
-  margin: 0 5% 0 5%;
-  position: relative;
-}
 
 
 .wide-box {
